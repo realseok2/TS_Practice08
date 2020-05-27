@@ -19,11 +19,11 @@ public class Point {
 		Point p3 = (Point) obj;
 		Point p4 = (Point) obj;
 
-		if (this.x == p2.x && this.y == p2.y) {
+		if (this.x == p2.x) {
 			return true;
 		} else if (this == p2) {
 			return true;
-		} else if (this.x == p3.x && this.y == p3.y) {
+		} else if (this.x == p3.x) {
 			return true;
 		} else if (p4.x == this.x && p4.y == this.y) {
 			return true;

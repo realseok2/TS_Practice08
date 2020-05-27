@@ -1,4 +1,4 @@
-package com.javaex.ex04;
+package com.javaex.TS_ex04;
 
 import java.util.Scanner;
 
@@ -11,9 +11,8 @@ public class SumApp {
 		System.out.println("숫자를 공백으로 구분해서 입력하세요");
 		String numLine = sc.nextLine();
 
-//--------------------------------------------------------------------------------------
-
 		// 코드를 작성하세요
+
 		String sArray[] = numLine.split(" ");
 		sc.close();
 
@@ -22,8 +21,7 @@ public class SumApp {
 			sum = sum + Integer.parseInt(sArray[i]);
 		}
 
-//--------------------------------------------------------------------------------------		
-		System.out.println("합:" + sum);
+		System.out.println("합 : " + sum);
 
 	}
 

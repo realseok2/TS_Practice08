@@ -1,4 +1,4 @@
-package com.javaex.ex05;
+package com.javaex.TS_ex05;
 
 public class Add {
     
@@ -6,12 +6,9 @@ public class Add {
     private int b;
     
     public void setValue(int a, int b) {
-    	this.a = a;
-    	this.b = b;
     }
 
     public int calculate() {
-    	return this.a+this.b;
     }
 
 }
