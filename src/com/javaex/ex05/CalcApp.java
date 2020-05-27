@@ -5,11 +5,17 @@ import java.util.Scanner;
 public class CalcApp {
 
 	public static void main(String[] args) {
+
 		Scanner sc = new Scanner(System.in);
+
 		int n01 = 0, n02 = 0;
+
 		String clac;
+
 		boolean exit = true;
+
 		try {
+
 			while (exit) {
 
 				System.out.print(">>");
